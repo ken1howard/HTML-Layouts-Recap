@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+
+  </head>
+  <body>
+    <div id="Big-Cat-Pic">
+            <img src="http://placekitten.com/500/150" alt="Big Cat Pic">
+    </div>
+    <div id="icons">
+      <!-- TODO: spans for icons -->
+      <span><i class="fas fa-camera"></i></span>
+      <span><i class="fas fa-anchor"></i></span>
+      <span><i class="fas fa-drum"></i></span>
+      <span><i class="fas fa-lamp"></i></span>
+      <span><i class="fas fa-books"></i></span>
+      <span><i class="fas fa-flag"></i></span>
+      
+    </div>
+    <div id="Animal-Pics">
+      <!-- TODO: Spans for four-item wide mini-layout -->
+      <span> 
+        <div>
+        <img src="http://placekitten.com/100/100" alt="Little Kitten">
+    </div>
+    <div>
+        <strong>Cute Kitten</strong>
+    </div>
+    <div>
+        <p>So Fluffy</p>
+    </div>
+    <div>
+        <a href="http://placekitten.com"> More Kittens</a>
+    </div>
+</span>
+      <span>
+        <div>
+        <img src="http://place-puppy.com/100x100" alt="Small Puppy">
+    </div>
+    <div>
+        <strong>Small Puppy</strong>
+    </div>
+    <div>
+        <p>Very Curious</p>
+    </div>
+    <div>
+        <a href="http://place-puppy.com">More Puppies</a>
+    </div>
+</span>
+      <span> 
+        <div>
+        <img src="https://placebear.com/100/100" alt="Baby Bear">
+    </div>
+    <div>
+        <strong>Baby Bear</strong>
+    </div>
+    <div>
+        <p>Extremelly Bold </p>
+    </div>
+    <div>
+        <a href="https://placebear.com"> More Bears</a>
+    </div>
+</span>
+      <span>
+        <div>
+        <img id="Snake" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWEhISFhYWEhUSFRUSGBgUFRISGBISGBgZGRoYGBgcIy4lHB4rHxgYJzgmKy8xNTU1GiQ7QD00Py5COjEBDAwMEA8QHhISHjQrJCExNDU2NjQxNjY0MTQ0NDQ0NDQ2NDE0NDE0NjQ0NDQ0MTQxNDQxNDE0NDQ/NjE0MTQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUCAwYBBwj/xAA2EAACAgECBQMDAwIGAQUAAAABAgARAwQhBRIxQVEGYXETIoEyQpGhsRRScsHR8GIHFRZDgv/EABoBAQADAQEBAAAAAAAAAAAAAAABAgQDBQb/xAAqEQEBAAIBAwMCBQUAAAAAAAAAAQIRAxIhMQRBUSJhMnGRsdEFE0KBwf/aAAwDAQACEQMRAD8A+PnP7TE5jNcSdjM5DPOY+ZjEgLiIgIiICbMOMswUd5rnR+ldFzvzHzIyupsXXAOBAAEj+Z0QwKBQEkKgVQoqacjTJeXdVtVmpw7yHkxS5fHYsyG+OXmezaodIGG5OzYpqSLklFbFNDVJGpy1KvLqN68yuxtK3LLQ6EdasyLocPNV9pe4zQAEyc/NZ9MVStPiKiEyqpJO5inYVVCZafQblj2nnWz3qZG1eKqqHaidht3lgoAxhh3lQdFzNXYH+snnA1IoOwNTnnMO2l5U3Q6exzESW+lDKVPeS9PjARfibCkzTK9W1+ns0aBAgC9pLYdxIxExbPQnWfVe608JDSLmeH1QqQs+rWjvOuPHlvwXTHWOCKJqVufUqBRJ2kTXa0b7yk1OcnvN3Fx2RXaXqsoY7Pt8yq1DkdDZmpiWNCDS/M1446Qw+m/mJ5/ijPZYcnERN6hERAREQEREBO+9G4gFBnAzv/R7/YPicee6xRXTZOs0kWfibnHWa0HWefclKwB5jXYTDIATQm5VpCfO81pjpSxjHM2jZMPaRn0p7SxxNe8zQ9Z2maXHcXxsAdpU6RrM+h5NCjqbHWc/rvTTpbJ/AnTqmtDDR0JY49SAfJlDi51PKwKy10id5h5cJO9FsnFKFEVZqXByD6VjqZzyYec0OgMvNJhICg7gTz+WYzWvK+KboNL9t+ZK+gBJeNRyiHWZd7y2v0stM4qjNhEhOamB1te86zDqXlTGkHUNPH1611qVuq1y+Z3w4svhFe6jU1tKfXa1AK3mjW64b0ZT5nvcmbuPj0rtq1mbfYyMxdjQmxcJc+0kcoTYTVO0GoYmAkLLzSVmz+8p9Zrew6y+GNyoPkNneJW8xiaf7cRtjEROipERAREQEREBOv8AR+p6L4NTkJYcI1f08insSJTlx6sbEV9bbHtfmRx0nvC9UMmMTZlx0dp4+W5dVSxpc/bUZzsF8zJq5anpF1KSoayg2Anv0e3aFRr+ZOxY6BuaMNrSIYQiq7SbpvuPzNq6Qt0m1EVRsLI7zprSZFfxPhKPzCgG8iczqtK2LbqD0M67JlG7HY9JH1OJXVV2Nj5lMpMolV8L/TLlGqpSKOQ8vaT8eo2nl8uF6+60dBg1IqjNjZBOe+vRmB4lT8t3K48PUvMl7keVubLVzRl18ganXr5nbDhylG3Uahe/9JT6nKpvepq1Wsu6Mqc+Wb8MLENuoYCyDf5mjFjZz12mGPDe5m183L0ncSHVlFCQszsJg+qbzK/Va09LlscblRjq9SekryZ67EmzMZsxxkitpERJQREQEREBERAREQEREDq/S/GeQhGM+hYnDqGBufFUcggjYidl6f8AUNAKx9pg9VwX8WKtjtXxAzcdOOW401uoYDY9ztJg0jEATHjx5UmKEiqKsgfM2HUoN6LnwAd5NXQUbIUnt1NTDMQpAoksSAqgW1dfgDayelzRuYzy6TFHOqJIWiGI5gpB6e/tMvptQJFHvV0ZliZrbmUWxG6n9KgUFs9e5/MyRntmU0E3ZSP1WaqvHvOWXJjs0jsti6NHajtXvNZ0oA2NHsRJHOea2IWxXsN+pH4mGmdWLC66MPj47SeuaRYoeL42QEnt/WQ9LrL7zq9boly42UnyB7MJ86yFkdkPVSROdxx5PBi6j6oqQ2FNzdZW4tce89fXRjw2LJ+bVef6St1OdT3kXNrJBy5LmnDAb9Q47GRUJJniYSdzN4pZ28DEu00uT3nuXUVK/Nqj0EtjhajbLU6k9JCJgmeTTjjJEWkRElBERAREQEREBERARE3abTNkcIil3Y0FUEkwNMzRCSAASTsANyT8Tv8Agv8A6e2q5NS5Udfp46JPsX6D8A/M7TRcPwacBcOFEobULd6H7nNmcMvUYzx3TI+bcF9B6nNTuBp0O95Aecj2Qb/zU7ng/pHS6cq3L9RzsHykUDV7L0Eu9RrCALblJ3NbgAbmvNASswZHdy53ZvsVOvIg6AHuSdye8ycvqcr28LSRerlRRZAB+NgPzIj8VF8oRn3AtCp3JoAA13IE9z6EIv1NTlCKK+0m2JOwVUXdmJoAAWboTkuM+rM2B1VdK2LGhBH1QPqMFZSGK9AtgdCfkTPjebk/BO3zS3Tsmz2G5TzcvcDoPgyOlVzXZexe/wChSQAPk8x/MoeGcXXUAFeYMw5mqkH0xuysbsGztV9epo10mZ7CjGnMyrRAOyV0LMdlHzv4BmezKXpy8m+zS60K2s7AdCTV7Tbon3ZqtSpUkfvO36fNV1mjHpGLg5CG2vlXm5Bfazu39B7SGnHl/wAS2me1POEVtq6XVdvEjVy3r2Vyy0sHwc/NseRSNz+9uyiu3k/iRm0tWze5MuGKhaGwHT8X/wAyv1tlCPP9pkvPlvUTYgvqDyKLF3tXWq7/AInEep9swYfuUfkidnqMRXGrHY2B779ZwPqfU82YKOiLX8zZ6LeXJ+qsRVzTxsoMiK8NlE9WYLvcjCeItzBRe89ZgJcSG6SLmcjvNb6j3kPJmJ7y+GFqLXuXKTNMRO8mlSIiAiIgIiICIiAiIgIiIG3FjZmCqCWYgADckk0AB3Nz6r6Z4UukxKSnNmyVzkUSGIsIPCjuen9pQ/8Ap9wEMw1b/pUkYwe7DYv+NwPe/E+hMyJ2B2s+P7Tz/V8tyvRje08/wtGK6oEk0wFXbBgCfC0CT/FTTi1Tm/sAIJu3C7dugPap4+XnNIfzWwHgC/8AeWug4dzUSKH53mO5a7TylW6fQNmcq6soIK2Dsy9wK3ugbvqD81dZcun0WPZQX5dr+5u/Um5Y6jkVClbV+2wR8V0M43Pwz6uRjkyPkVWChFpWdh1526V06Df2nLK6ve9/2Pyc96l9R5UfTZcgYlmd8YVsaFOUBOa2R9iGYUBIOu9cjIuTT50ZkFqGP03dWHRwwVR1/by7juJZeuvT4On+siW+FlIr6js+MimWiTQXZvAAM+b5mDMWOxO5o0CfO/eer6LLHLimvvv81bF5wXVFdTgZLrKvKVALVXWlsX+lq+Z9k4LmIxZEYWwIawP1uRTbdp8e9Gadn1S5QoKacE79CxBCqPJ36eAfz9V0XEHTGz8tNkpvu7J228n/AImL12cxzmvad/8AfiJlT2NCj1EpdZwrFkzLmKkOhsFTVkefM15OLiyGJB3O1H+Zng1LODVBf8ync/6fE8jfJjblLosmSXnzjm5RZPflrYePmS8OIcouyT5q/iRcSJjUu1DvuenzKrUcbdi4xgIt19RvAH7V/wBzKY8dz8ePlbxEfj+qPO4Yjkxg8tbEWBZnzDV6rmyO/Ynb47S99WcS/wDoUk833MxO7fPyZyvNPovRcHRh1X3U90o5pgBc1LNjZKmvXws3E1NGZ5pbLNRMtjgi0JnkROipERAREQEREBERAREQEREBLbgHCG1GYYxso+522ARO5s7Weg9zKoT7j6S9NLg0yAreV1V3/wBZGy/Cg1/PmZfV+p/sYdvN7RMm2nT4hQ02J1xIigFiGYrjUfsBG56bnuZtThLOU5Wy/T5VsKAWLDauY8vbqR3udDwrgqAlmH6DR/8AJ+9/BsV8y4y5EQUB/E8veUnVndT914rOH8GRFsgj/ULP5NmT3zIo2IE5/j/qVcIC3TMQKXqo9/6ypXiqZ7TkbGzbKyM53PdlJo/ipzy5bO+M7X3qbPlba7i/3OmNTkKqWaioCqLtiSQANvMrceU0bJBdrukC3t+kMLPXz52l3p+GImN8SczKysGLVzOxFEn3nn01567Ke/8AecOXL5UlRf8ADt9MsHZnHRmPJ99WAAu3U1/yZRcV4Pp8jnJk0yO5A3ByYw1b8xCMoYm+pB2AnXNiQlb5uUfdy/tYjpzeR7d+9jaacwFk9STKTnuHfHLV+xZa5vhOgAUY8ahFxiiaPKl72f8AMxG9dT/Wb9QnKoW+atrO1+9S0z6o8gS9hffzOY4hxBVcKx+4jZRZLb9gNz1EiXLly7HTry3Y9Cpazv3M3NxVFb6OBGyvWyqLA3Nlj0HXvMNHwnNno5S2nwn9gNZHHuf2y3wriwIUQLjVeu+5Pcs3Uycrjj+L6r8T/qZ9kI6Emn1Dhz1CA1jRvH/kR5M571LxpMSkKASBS9COY95l6j9SolgAPtsDuCe23ep821+ufK5dzZJv4m/0fpM+SzPPtPhWsc+dnZnY2zG5gJgpgtPc17QbeeprLzAmIkNkRElBERAREQEREBERAREQESa+k8SO+EiE6aogiIQsOBYA+q06GiHzY1IO1rzCx/E/RWnyFk5k5FJJAbISgvfZQAST79p+atPlKujjqjBx8qbH9p9Vz8fJ5HDbcqMviioInmf1HHLeNk35WxdnruIZsC0yXjWhzoysB2BYn9PyRK7JxsHbmD32Qmv/ANPsT+Jzf/zJjalRkFcrBwSrA9Rv1EjjKihsuK+VfubGSXKjuVPUgeD2nnXizyn1TuvdS9j1nwvMzYMuNGKNStyBnCOSb5+p+77aJ22M6HgPp/Mqq7cqhaID2Gbyldj2s7SDwn1CpcBGNnYjccvz4l3n4sW6GgOnufJkcnNlMJhlj4TcppZNrKW7q9ve+lV5mOIFiWrv/wB/77Tn/wD3vAuUjLkVDyhgGYKPuuzRPWwZvX1Iw5hi0uXNibcZABjVms/pL1zDpuLme8PJnPF/afrXOOgzsAoJ2A3J8CVPEuK4cQssCW2VVPMznwqjcyBq2yZQVzlUxmwceNixcdPufbb2A/MjabDp9OPsVVJ6nqx8Wx3lJxYf53d+J/K3V8NarrM1gqumQsaZjzPV/wCUbA/JlrotJh04BVedyKOVqZmPcc3b4lTruPBV5+YVZU+xrb+n9jOU1vq5hzBGsNsR1B/B2mvHg5ub6cZqfb+Ufm7jifGlVTbAX7icFx71UrfbiBLVTOxJsjb7R2nM6zXPkJs0PA/7vIc9P039Ow4u+Xeot22ZsrMSzEknzNcRPSVIiICIiAiIgIiICIiAiIgIiICIiBaY8lzcFBkZcdTZuJXazcdGGkfJw3xNmPVUZtfWCLamSK5tERN6a91TkO4XZSb2HibH1Y8SDnzc0jXV2qO0bV4g49x4MlabjWRGBUUR0qV2PKQK2O9jbvNi6xh2H8SLx432NuiwcXzu5yfTDBgoNFUJKirPk/8AEt8fEMrD7iuFemx52Px2H9ZxKcQcV4EnY+LPy7Lv036UZl5fT3K7mMRvbtH1q4+U4wqsRvkZUbIdh+871sTXvMMPHKZedmckgWzEmcPqtaxNlgPYEMf4GwkZtY3Ym66n/YSk9F1T6qdnaa/1GK5rokdzOe1vqBmJ5bo17dAB/tKNnJNk2feYzvxek48PZNqRk1bNdsd/4/iRyYiaZJPCpFxEkLiIgIiICIiAiIgIiICIiAiIgIiICIiBYLmktGBEpbm0ZzVSLFpWWof7jU1fUMxJszyNI2yLTGIkobE2mbGaLntyNJ29uukxuCYkoIgCZjGYGET0rPICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiBJ0+O5IyJQnmkwmrnmqyVtKy7q+tRDdt5hFxLKEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAQIiBvTFckYdNuLiJyyyq0WopUlBqGtjESOJfPw1RETs5EREBERAREQEREBERAREQEREBERAREQEREBERA//2Q==" alt="Green Snake">
+    </div>
+    <div>
+        <strong>Slimy Snake</strong>
+    </div>
+    <div>
+        <p>Very Sneaky</p>
+    </div>
+    <div>
+        <a href="https://a-z-animals.com/animals/snake/pictures/"> More Snakes</a>
+    </div>
+</span>
+    </div>
+  </body>
+</html>
